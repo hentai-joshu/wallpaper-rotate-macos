@@ -1,0 +1,5 @@
+app/wallpaper-rotate
+app/probe_url
+*.o
+*.dSYM/
+.DS_Store
