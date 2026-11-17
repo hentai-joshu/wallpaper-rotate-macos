@@ -36,6 +36,8 @@ Then click the menu-bar icon → **选择图库文件夹…** ("choose folder") 
 
 The menu is in Chinese. A folder is only used once you pick one; until then the app looks for `~/Pictures/Wallpapers`, then `~/Pictures/壁纸`. Every desktop and display gets its own picture on the next rotation.
 
+中文使用说明（菜单各项、缓存、卸载）：[使用说明与卸载.md](使用说明与卸载.md)
+
 Uninstall:
 
 ```sh
@@ -95,6 +97,7 @@ Deleting it never changes the current wallpaper; the service re-renders on deman
 app/main.m          the whole app (menu bar, store editing, SkyLight, cache pruning)
 app/probe_url.m     tiny helper: prints what each display is currently showing
 app/make_default.sh snapshot the system wallpaper config by hand
+使用说明与卸载.md   Chinese user guide: menu items, cache, uninstall
 install.sh          build + install + load
 uninstall.sh        unload + remove
 ```
